@@ -10,8 +10,9 @@ function App() {
   return (
     <div>
       <h2>I thought this would be a more creative way of introducing myself than a resume</h2>
-      <h3>hosted with love by <a href="https://jonathon-intro.herokuapp.com/">heroku</a></h3>
-      <h4>source at <a href="https://github.com/hinchley2018/react-vis">Github</a></h4>
+      
+      
+      <h4>My Favorite Animals vs how many I've owned</h4>
       <AnimalChart/>
   {/* <XYPlot height={200} width={200}>
     <LineSeries data={data} />
@@ -19,6 +20,8 @@ function App() {
   <XYPlot height={200} width={200}>
     <MarkSeries data={data} />
   </XYPlot> */}
+  <h4>hosted with love by <a href="https://jonathon-intro.herokuapp.com/">heroku</a></h4>
+  <h4>source at <a href="https://github.com/hinchley2018/react-vis">Github</a></h4>
   </div>
   );
 }
